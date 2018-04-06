@@ -35,13 +35,13 @@ export const pageQuery = graphql`
       content
       date(formatString: "MMMM DD, YYYY")
       acf {
-          video {
-            source_url
-            localFile {
-              publicURL
-            }
+        video {
+          source_url
+          localFile {
+            publicURL
           }
         }
+      }
     }
     site {
       id

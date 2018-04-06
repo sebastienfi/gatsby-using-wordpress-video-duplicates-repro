@@ -3,7 +3,7 @@ module.exports = {
     title: `A sample site using gatsby-source-wordpress without ACF`,
     subtitle: `Data fetched from a site hosted on pantheonsite.io`,
   },
-  plugins: [
+  plugins: [   
     /*
      * Gatsby's data processing layer begins with “source”
      * plugins. Here the site sources its data from Wordpress.
@@ -43,6 +43,6 @@ module.exports = {
       options: {
         pathToConfigModule: `src/utils/typography.js`,
       },
-    },
+    },  
   ],
 }
